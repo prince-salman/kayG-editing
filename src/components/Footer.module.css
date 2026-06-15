@@ -77,7 +77,16 @@
 }
 
 @media (max-width: 768px) {
+  .footer {
+    padding: 3rem 0 1.5rem 0;
+    text-align: center;
+  }
   .content {
     flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+  .brand {
+    margin: 0 auto;
   }
 }
