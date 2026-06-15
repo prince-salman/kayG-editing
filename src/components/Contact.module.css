@@ -1,0 +1,52 @@
+.contact {
+  background-color: var(--bg-primary);
+  position: relative;
+  overflow: hidden;
+  padding: 8rem 0;
+}
+
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  background: transparent;
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.03em;
+}
+
+.description {
+  font-size: 1.125rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 3rem;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 300;
+}
+
+.waButton {
+  font-size: 1rem;
+  padding: 1rem 2.5rem;
+  display: inline-flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 0.75rem;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2.5rem;
+  }
+}
